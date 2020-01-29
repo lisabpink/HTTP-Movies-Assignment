@@ -14,7 +14,7 @@ body {
   padding: 1rem;
   cursor: pointer;
   position: relative;
-  margin: 3rem ;
+  margin: 3 auto ;
 }
 
 .movie-director {
@@ -77,4 +77,12 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+.update-button {
+  position: absolute;
+  top: 25px;
+  right: 90px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
 }
